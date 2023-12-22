@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 // Example endpoint for users
-app.get('/users', (req, res) => {
+app.get('/', (req, res) => {
   const users = [
     { id: 1, name: 'Alice' },
     { id: 2, name: 'Bob' },
